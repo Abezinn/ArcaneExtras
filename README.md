@@ -10,7 +10,7 @@ For now, this mod is mostly a collection of random ideas I implement while learn
 
 ### Heavyweight
 
-A boots enchantment that protects the wearer from Levitation.
+An enchatment for boots that protects the wearer from Levitation.
 
 - Prevents Levitation from being applied while equipped.
 - Removes an active Levitation effect when equipped.
@@ -30,13 +30,13 @@ A weapon enchantment specialized against the Illager faction.
     - Ravagers
     - Witches
     - Vexes
-- Is mutually exclusive with other damage enchantments such as Sharpness, Smite and Bane of Arthropods.
+- Is mutually exclusive with other damage enchantments such as Sharpness, Smite, and Bane of Arthropods.
 - Can be obtained through normal non-treasure enchantment sources.
 
 ## Requirements
 
 - Minecraft 1.21.1
-- NeoForge
+- NeoForge 21.1.251 or newer
 
 ## Installation
 
@@ -51,7 +51,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
 
 ## Development
 
-Arcane Extras is currently a work in progress mod.
+Arcane Extras is currently a WIP mod.
 
 More enchantments and other small pieces of content may be added over time.
 
