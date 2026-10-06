@@ -11,7 +11,6 @@ public class ModEnchantments { // Criamos uma classe para centralizar as referê
   public static final ResourceKey<Enchantment> HEAVYWEIGHT =
       // Criamos uma constante pública chamada HEAVYWEIGHT.
       // Ela guarda uma ResourceKey que aponta para um Enchantment.
-
       ResourceKey.create(
           // Chave que representa uma entrada dentro de um registry
           Registries.ENCHANTMENT,
@@ -20,5 +19,10 @@ public class ModEnchantments { // Criamos uma classe para centralizar as referê
           // Cria o identificador "arcane_extras:heavyweight"
           // ArcaneExtras.MODID fornece o namespace "arcane_extras"
           // "heavyweight" é o path da ResourceLocation
+      );
+  public static final ResourceKey<Enchantment> SCOURGE_OF_THE_RENEGADES =
+      ResourceKey.create(
+          Registries.ENCHANTMENT,
+          ResourceLocation.fromNamespaceAndPath(ArcaneExtras.MODID, "scourge_of_the_renegades")
       );
 }
