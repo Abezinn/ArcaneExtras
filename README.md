@@ -1,25 +1,61 @@
+# Arcane Extras
 
-Installation information
-=======
+A WIP Minecraft mod that adds small, vanilla-friendly pieces of content.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+It is named **Arcane Extras** because the first piece of content added to the mod was an enchantment.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+For now, this mod is mostly a collection of random ideas I implement while learning Java and Minecraft modding.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Features
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Heavyweight
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+A boots enchantment that protects the wearer from Levitation.
+
+- Prevents Levitation from being applied while equipped.
+- Removes an active Levitation effect when equipped.
+- Can be obtained from the enchanting table.
+- Can be found in End City treasure chests.
+
+### Scourge of the Renegades
+
+A weapon enchantment specialized against the Illager faction.
+
+- Has 5 levels.
+- Deals 2.5 additional damage per level.
+- Affects:
+    - Pillagers
+    - Evokers
+    - Vindicators
+    - Ravagers
+    - Witches
+    - Vexes
+- Is mutually exclusive with other damage enchantments such as Sharpness, Smite and Bane of Arthropods.
+- Can be obtained through normal non-treasure enchantment sources.
+
+## Requirements
+
+- Minecraft 1.21.1
+- NeoForge
+
+## Installation
+
+1. Install NeoForge for Minecraft 1.21.1.
+2. Download Arcane Extras.
+3. Place the `.jar` file inside your `mods` folder.
+4. Launch the game.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
+
+## Development
+
+Arcane Extras is currently a work in progress mod.
+
+More enchantments and other small pieces of content may be added over time.
+
+## License
+
+This project is licensed under the Mozilla Public License 2.0.
+See [LICENSE](LICENSE) for details.
